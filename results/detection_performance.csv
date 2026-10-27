@@ -1,0 +1,7 @@
+Model,Precision,Recall,F1-score,ROC-AUC,PR-AUC
+SMOTE + DT (prior study),0.869,0.958,0.911,,
+SMOTE + AdaBoost (prior study),0.919,0.926,0.965,,
+SMOTE + GBT (prior study),0.968,0.958,0.963,,
+SMOTE + XGB (prior study),0.975,0.958,0.966,,
+VAE + CatBoost (proposed baseline),0.981,0.949,0.965,0.986,0.989
+VAE-GAN + CatBoost (proposed),0.988,0.953,0.970,0.985,0.989

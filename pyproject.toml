@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "anomaly-detection-vaegan-catboost"
+version = "1.0.0"
+description = "Interpretable imbalanced industrial anomaly detection: VAE-GAN augmentation, CatBoost classification and TreeSHAP interpretation on UCI-SECOM."
+readme = "README.md"
+license = "MIT"
+authors = [{ name = "Dong-Jun Chen" }]
+requires-python = ">=3.10"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

@@ -1,0 +1,5 @@
+Metric,VAE,VAE-GAN
+KL Divergence,433.655,26.756
+JS Divergence,13.051,4.046
+Wasserstein Distance,21.401,12.457
+MMD,10.466,4.975
